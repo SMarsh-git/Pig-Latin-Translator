@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Source+Code+Pro&display=swap');
-
 * {
     margin:0;
     padding: 0;
@@ -8,22 +7,23 @@
     font-family: 'Fredoka', sans-serif;
     font-family: 'Source Code Pro', monospace;
 }
-
 html {
     background-color: rgb(31, 31, 31);
 }
-
 h1 {
     color: rgb(236, 158, 197);
     font-size: 64px;
 }
-
+h2 {
+    padding-top: 20px;
+    color: rgb(236, 158, 197);
+    font-size: 24px;
+}
 .container {
     max-width: 50%;
     margin: 0 auto;
     padding:1%;
 }
-
 .header {
     display: flex;
     flex-direction: column;
@@ -32,17 +32,14 @@ h1 {
     margin-bottom: 40px;
 
 }
-
 .header_icon {
     height: 100px;
 }
-
 .text-input {
     width: 100%;
     resize: none;
     padding: 10px;
 }
-
 .text-output {
     background-color: rgb(236, 158, 197);
     color: rgb(0, 0, 0);

@@ -2,6 +2,7 @@ const textInput = document.getElementById(`textInput`)
 const textOutput = document.getElementById(`textOutput`)
 const vowels = [`a`, `e`, `i`, `o`, `u`];
 const ending = `ay`
+
 textInput.addEventListener(`keyup`, (y) => {
     const input = y.target.value;
     const words = input.split(` `);
